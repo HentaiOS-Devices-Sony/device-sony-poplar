@@ -15,6 +15,9 @@
 # Inherit device parts
 $(call inherit-product, device/sony/poplar/aosp_g8341.mk)
 
+# Inherit Hentai os vendor 
+$(call inherit-product, vendor/hentai/config/common_telephony.mk)
+
 # Override Product Name
 PRODUCT_NAME := hentai_poplar_RoW
 
