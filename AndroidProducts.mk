@@ -12,6 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_g8341.mk \
-                     $(LOCAL_DIR)/aosp_g8342.mk
-
+PRODUCT_MAKEFILES :=  \
+    $(LOCAL_DIR)/hentai_poplar_RoW.mk \
+    $(LOCAL_DIR)/hentai_poplar_DSDS.mk \
+    $(LOCAL_DIR)/hentai_poplar_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_poplar_DSDS_Go.mk \
+    
+COMMON_LUNCH_CHOICES += \
+    hentai_poplar_RoW-eng \
+    hentai_poplar_RoW-userdebug \
+    hentai_poplar_RoW-user \
+    hentai_poplar_DSDS-eng \
+    hentai_poplar_DSDS-userdebug \
+    hentai_poplar_DSDS-user \
+    hentai_poplar_RoW_Go-eng \
+    hentai_poplar_RoW_Go-userdebug \
+    hentai_poplar_RoW_Go-user \
+    hentai_poplar_DSDS_Go-eng \
+    hentai_poplar_DSDS_Go-userdebug \
+    hentai_poplar_DSDS_Go-user \
